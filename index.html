@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to TeleHealth Care+</title>
+  <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/1200px-Caduceus.svg.png">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <!-- NAV BAR -->
+
+  <div class="nav">
+    <h4>TeleHealth Care+</h4>
+    <div class="navlink">
+      <a class="btn btn-primary" href="#patient">For Patients</a>
+      <a class="btn btn-primary" href="#hospital">For Hospitals</a>
+    </div>
+  </div>
+
+  <!-- Body -->
+
+  <div class="header">
+    <img style="width: 120px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/1200px-Caduceus.svg.png" alt="">
+    
+    <h1>Welcome to TeleHealth Care+</h1>
+    <br>
+    <h2>How can we help you?</h2>
+    <br><br><br>
+
+    <div class="card-deck">
+      <div class="card">
+        <img style="width: 85%; margin:auto;" src="https://i.pinimg.com/originals/2b/19/ae/2b19ae15ff666efd06ec114ebe59988f.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <br>
+          <h5 class="card-title"><a class="btn btn-primary" href="consultation.html">Consult a Doctor</a></h5>
+        </div>
+      </div>
+      <div class="card">
+        <img style="width: 75%; margin:auto;" src="https://cdn2.iconfinder.com/data/icons/employment-linear-black/2048/4766_-_Scheduled_Date_and_Time-512.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <h5 class="card-title"><a class="btn btn-primary" href="appointment.html">Make an Appointment</a></h5>
+        </div>
+      </div>
+      <div class="card">
+        <img style="width: 75%; margin:auto" src="https://media.istockphoto.com/vectors/medical-report-cartoon-vector-id691819580" class="card-img-top" alt="...">
+        <div class="card-body">
+        
+          <h5 class="card-title"><a class="btn btn-primary" href="reports.html">View My Reports</a></h5>
+        </div>
+      </div>
+      <div class="card">
+        <img style="width: 72%; margin:auto" src="https://thumbs.dreamstime.com/b/medical-hospital-building-vector-cartoon-style-illustration-isolated-white-background-103197617.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <h5 class="card-title"><a class="btn btn-primary" href="hospital.html">Hospitals Near Me</a></h5>
+        </div>
+      </div>
+      <div class="card">
+        <img style="width: 75%; margin:auto" src="https://static.vecteezy.com/system/resources/thumbnails/000/349/799/small/2__287_29.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <h5 class="card-title"><a class="btn btn-primary" href="bills.html">View and Pay Bills Online</a></h5>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+  <div id="patient" class="row">
+    <div class="column1">
+      <img style="width: 70%; margin-left: 60px;" src="https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop" alt="">
+    </div>
+    <div class="column2">
+      <h2>Remote Health Monitoring</h2>
+      <h4>Connect with a doctor virtually</h4>
+      <br>
+      <p>You can directly talk to one of our doctors either by video conferencing or by chatting. You also have the opportunity to talk to one of your local health cares or doctors if they are listed in our website. You can also seek medical information from pharmacists.</p>
+      <a class="btn btn-outline-info" href="consultation.html">Find a Doctor</a>
+      <a class="btn btn-outline-info" href="appointment.html">Make an Appointment</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="column3">
+      <h2>Renew your Prescription Online.</h2>
+      <p>You can now renew your prescription completely online. You will just need to enter your medial information with your patient id. In addition to renewing your prescription, you can also view your previous medications. </p>   
+      <br>
+      <p>Furthermore, you can also order any medicines from your nearest hospital or pharmacy.</p>
+      <a class="btn btn-outline-danger" href="prescription.html">Renew your Prescription</a> 
+      <a class="btn btn-outline-danger" href="prescription.html#order">Order a Medicine</a>
+      
+    </div>
+    <div class="column4">
+      <img style="width: 85%; margin-left: 15px;" src="https://img.imageboss.me/poisonorg/cdn/~/media/images/shared/articles/2012-feb/is-it-okay-to-take-expired-medicines-2.jpg" alt="">
+      
+    </div>
+  </div>
+
+  <div id="hospital" class="hospital">
+    <img style="width:50%; padding-bottom: 50px;" src="https://www.healthcareitnews.com/sites/hitn/files/Hospital-HITN.jpg" alt="">
+    <h2>Add a Hospital</h2>
+    <br>
+    <h5>By adding a hospital to this site, patients can interact directly with the hospital. For example patients can view their medical reports, pay bills online and even interact with the staff of the hospital. This way, patients can see doctors and seek medical informtaion online. </h5>
+    <br>
+    <button id="add" class="btn btn-success">Add a Hospital</button>
+    <br> <br> <br>
+    <div class="add" style="display:none;">
+      <h5>Please enter the following information to add a hospital below:</h5>
+      <br>
+      <label> Please Enter the Hospital Name:</label>
+      <br>
+      <input class="form-control" type="" placeholder="Enter Hospital Name" autocomplete="nope">
+      <br>
+      <label for="">Please Enter a Link to the Hospital Website:</label>
+      <br>
+      <input class="form-control" type="" placeholder="Website Link" autocomplete="nope">
+      <br>
+      <label for="">Please Enter the Hospital Address:</label>
+      <br>
+      <input class="form-control" type="" name="" placeholder="Enter Address" autocomplete="nope">
+      <br>
+      <label for=""> Please Enter the Hospital Email Address:</label>
+      <br>
+      <input class="form-control" type="email" placeholder="Hospital Email Address" autocomplete="nope">
+      <br>
+      <label> Please enter the number of staff in the hospital:</label>
+      <br>
+      <input class="form-control" type="number" placeholder="# of Staff"l autocomplete="nope">
+      <br>
+      <label> Does the hospital support emergency situations?</label>
+      <input type="checkbox">
+      <br>
+      <label for=""> Any Other Additional Information About the Hospital:</label>
+      <br>
+      <textarea class="form-control" placeholder="Enter Any Other Additional Information About the Hospital" cols="30" rows="5"></textarea>
+      <br><br>
+
+      <button id="submit" class="btn btn-outline-success">Submit</button>
+      <br> <br>
+
+      <h6 id="add-hospital" style="display: none;">Thank You for Adding a Hopsital! We will review the information provided and add them in our website!</h6>
+      
+    </div>
+
+  </div>
+
+  <div class="covid">
+    <h2>Stay on Top of Covid-19</h2>
+    <p>The coronavirus pandemic has been hard on all of us. But don't forget to do your part. Watch your distance, wash your hands frequently, and avoid close contacts with other people. Follow your local health guidelines. Here is a latest interactive map below with all the statistics on the numbers. </p>
+    <br>
+    <h4>Latest Interactive Map on Covid-19</h4>
+      <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map&region=World" width="90%"
+        height="500px"></iframe>
+  </div>
+
+  <!-- footer -->
+
+  <footer>
+    <img style="width:35px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/1200px-Caduceus.svg.png" alt="">
+    <h6 style="display:inline">TeleHealth Care+</h6>
+    <br><br>
+    <a href="consultation.html">Consult a Doctor</a>
+    <a href="appointment.html">Book an Appointment</a>
+    <a href="reports.html">View Reports</a>
+    <a href="hospital.html">Hospitals Near Me</a>
+    <a href="bills.html">Pay Bills Online</a>
+    <a href="index.html#hospital">Add a Hospital</a>
+  </footer>
+
+  <!-- Bootstrap CDN -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- Javascript & Jquery -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>

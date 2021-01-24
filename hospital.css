@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+}
+
+footer {
+  padding: 3% 10%;
+  background-color: white;
+  text-align: center;
+}
+
+footer a {
+  padding-left: 30px;
+}
+
+.nav {
+  padding: 1% 2%;
+}
+
+.navlink {
+  margin-left: auto; 
+}
+
+.main{
+   padding: 5% 10%;
+}

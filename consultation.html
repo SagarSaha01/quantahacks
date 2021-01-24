@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consult a Doctor</title>
+  <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/1200px-Caduceus.svg.png">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="consultation.css">
+</head>
+<body>
+
+  <!-- NavBar -->
+
+  <div class="nav">
+    <h4>TeleHealth Care+</h4>
+    <div class="navlink">
+      <a class="btn btn-primary" href="index.html">Home</a>
+      <a class="btn btn-primary" href="index.html#patient">For Patients</a>
+      <a class="btn btn-primary" href="index.html#hospital">For Hospitals</a>
+    </div>
+  </div> 
+
+  <!-- Body -->
+
+  <div class="main">
+    <img style="width: 25%; padding-bottom: 50px; padding-left:50px;" src="https://www.miraldental.com/wp-content/uploads/2018/12/doctor-img2.png" alt="">
+    <h1>Consult a Doctor</h1>
+    <p>You can directly talk to one of our doctors or contact a doctor in your region if available.</p>
+    <br>
+    <button id="our-doctor" class="btn btn-primary">Consult One of Our Doctors</button>
+    <button id="local-doctor" class="btn btn-outline-primary">Consult Your Local Doctors</button>
+  </div>
+
+  <div class="online">
+    <h3>Please select the following that bests suits your needs. A doctor will contact with you shortly.</h3>
+    <br>
+    <!-- Example split danger button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger">Specialty</button>
+      <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item">Allergy or Asthma</li>
+        <li class="dropdown-item">Cardiovascular</li>
+        <li class="dropdown-item">Neurology</li>
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-item">Other</li>
+      </ul>
+    </div>
+
+    <!-- Example split danger button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger">Type</button>
+      <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item">Senior Care</li>
+        <li class="dropdown-item">Heart/Cardiovascular</li>
+        <li class="dropdown-item">Pedriatics</li>
+        <li class="dropdown-item">Orthopedic</li>
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-item">Other</li>
+      </ul>
+    </div>
+
+    <!-- Example split danger button -->
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger">Physician Name</button>
+      <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item">John Brown</li>
+        <li class="dropdown-item">Chris Potter</li>
+        <li class="dropdown-item">Timothy </li>
+        <li class="dropdown-item">Henry Aiden</li>
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-item">Any</li>
+      </ul>
+    </div>
+
+    <input type="email" placeholder="Your Email Address" autocomplete="nope" class="form-control">
+    <br><br>
+  
+    <button id="contact" class="btn btn-outline-danger">Contact a Doctor</button>
+    <br><br>
+    
+    <div style="display: none;" class="ty">
+      <h5>Thank You for your patience. A doctor will get in touch with you shortly!</h5>
+    </div>
+
+  </div>
+
+  
+  <div class="in-person">
+    <h3>Please select the following that bests suits your needs. A doctor will contact with you shortly.</h3>
+    <br>
+    <!-- Example split danger button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger">Specialty</button>
+      <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item">Allergy or Asthma</li>
+        <li class="dropdown-item">Cardiovascular</li>
+        <li class="dropdown-item">Neurology</li>
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-item">Other</li>
+      </ul>
+    </div>
+
+    <!-- Example split danger button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger">Type</button>
+      <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item">Senior Care</li>
+        <li class="dropdown-item">Heart/Cardiovascular</li>
+        <li class="dropdown-item">Pedriatics</li>
+        <li class="dropdown-item">Orthopedic</li>
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-item">Other</li>
+      </ul>
+    </div>
+
+    <!-- Example split danger button -->
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger">Hospital</button>
+      <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item">Mayo Clinic</li>
+        <li class="dropdown-item">Massachusetts General Hospital</li>
+        <li class="dropdown-item">Toronto General Hospital</li>
+      </ul>
+    </div>
+
+    <input type="email" placeholder="Your Email Address" autocomplete="nope" class="form-control">
+    <br><br>
+  
+    <button id="contact1" class="btn btn-outline-danger">Contact Your Local Health Unit</button>
+    <br><br>
+    
+    <div style="display: none;" class="ty1">
+      <h5>Thank You for your patience. A doctor will get in touch with you shortly!</h5>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  
+  <footer>
+    <img style="width:35px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/1200px-Caduceus.svg.png" alt="">
+    <h6 style="display:inline">TeleHealth Care+</h6>
+    <br><br>
+    <a href="consultation.html">Consult a Doctor</a>
+    <a href="appointment.html">Book an Appointment</a>
+    <a href="reports.html">View Reports</a>
+    <a href="hospital.html">Hospitals Near Me</a>
+    <a href="bills.html">Pay Bills Online</a>
+    <a href="index.html#hospital">Add a Hospital</a>
+  </footer>
+
+  <!-- Bootstrap CDN -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- Javascript & Jquery -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="consultation.js"></script>
+
+</body>
+</html>

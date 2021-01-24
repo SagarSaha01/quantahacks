@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment</title>
+  <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/1200px-Caduceus.svg.png">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+
+  <!-- NavBar -->
+
+  <div class="nav">
+    <h4>TeleHealth Care+</h4>
+    <div class="navlink">
+      <a class="btn btn-primary" href="index.html">Home</a>
+      <a class="btn btn-primary" href="index.html#patient">For Patients</a>
+      <a class="btn btn-primary" href="index.html#hospital">For Hospitals</a>
+    </div>
+  </div>
+
+  <!-- Body -->
+
+  <img style="width: 30%; padding-top: 20px; padding-left: 10%;" src="https://image.freepik.com/free-vector/isometric-appointment-booking-with-calendar_23-2148565453.jpg" alt="">
+
+  <div class="appointment">
+    <h1>Make an Appointment</h1>
+    <h6>You can now either make an online appointment or an in-person appointment at your local hospital near you.</h6>
+    <br>
+    <button id="online" class="btn btn-primary">Book an Online Appointment</button>
+    <button id="in-person" class="btn btn-outline-primary">Book an In-Person Appointment</button>
+  </div>
+
+  <div class="online">
+    <h4>Please give your information below to book an online appointment.</h4>
+    <br>
+
+      <h5>Please Enter Your Full Name:</h5>
+      <input class="form-control css-fc" type="text" placeholder="Enter Full Name" autocomplete="nope">
+      <h5>Please Enter Your Email Address:</h5>
+      <input class="form-control css-fc" type="email" placeholder="Enter Email Address" autocomplete="nope">
+      <h5>Please Enter Your Age:</h5>
+      <input class="form-control css-fc" type="number" placeholder="Enter Age" autocomplete="nope">
+      <h5>Please Specify Your current conditions with any symptoms</h5>
+      <textarea class="form-control" name="" id="" cols="500" rows="5" placeholder="Enter Your Current Conditions with any symptoms"></textarea>
+      <br>
+      <button id="next" class="btn btn-danger">Next</button>
+
+    <div class="calender">
+      <br><br>
+      <h6>Please select one of the available times.</h6>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>25th January, 2021 @ 9:00 AM</label>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>25th January, 2021 @ 11:15 AM</label>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>25th January, 2021 @ 2:15 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>25th January, 2021 @ 3:45 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>25th January, 2021 @ 4:30 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>27th January, 2021 @ 9:00 AM</label>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>27th January, 2021 @ 11:15 AM</label>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>27th January, 2021 @ 2:15 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>27th January, 2021 @ 3:45 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox">
+      <label>27th January, 2021 @ 4:30 PM</label>
+      <br><br>
+
+      <button style="display:none;" class="btn btn-outline-danger" id="save">Book an Appointment</button>
+      <br><br>
+
+      <h5 style="display:none;" class="booking">Thank you for booking an appointment! Your booking time has been reserved.</h5>
+
+    </div>
+  </div>
+
+  <div class="in-person">
+    <h4>Please give your information below to book an in-person appointment.</h4>
+    <br>
+    <h5>Please Enter Your Full Name:</h5>
+    <input class="form-control css-fc" type="text" placeholder="Enter Full Name" autocomplete="nope">
+
+    <h5>Please Enter Your Email Address:</h5>
+    <input class="form-control css-fc" type="email" placeholder="Enter Email Address" autocomplete="nope">
+    <h5>Please Enter Your Age:</h5>
+    <input class="form-control css-fc" type="number" placeholder="Enter Age" autocomplete="nope">
+    <h5>Please Enter Your Address:</h5>
+    <input class="form-control css-fc" type="text" placeholder="Enter Address" autocomplete="nope">
+    <div class="dropdown">
+      <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false"> Select Hospital </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <li><button class="dropdown-item" type="button">Mayo Clinic</button></li>
+        <li><button class="dropdown-item" type="button">Massachusetts General Hospital</button></li>
+        <li><button class="dropdown-item" type="button">Toronto East General Hospital</button></li>
+      </ul>
+    </div>
+    <br>
+    <h5>Please Specify Your current conditions with any symptoms</h5>
+    <textarea class="form-control" name="" id="" cols="500" rows="5" placeholder="Enter Your Current Conditions with any symptoms"></textarea>
+    <br>
+    <button id="next2" class="btn btn-danger">Next</button>
+    <div class="calender2">
+      <br><br>
+      <h6>Please select one of the available times.</h6>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>25th January, 2021 @ 9:00 AM</label>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>25th January, 2021 @ 11:15 AM</label>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>25th January, 2021 @ 2:15 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>25th January, 2021 @ 3:45 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>25th January, 2021 @ 4:30 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>27th January, 2021 @ 9:00 AM</label>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>27th January, 2021 @ 11:15 AM</label>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>27th January, 2021 @ 2:15 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>27th January, 2021 @ 3:45 PM</label>
+      <br>
+      <input type="checkbox" class="checkbox2">
+      <label>27th January, 2021 @ 4:30 PM</label>
+      <br><br>
+
+      <button style="display:none;" class="btn btn-outline-danger" id="save2">Book an Appointment</button>
+      <br><br>
+
+      <h5 style="display:none;" class="booking2">Thank you for booking an appointment! Your booking time has been reserved.</h5>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer>
+    <img style="width:35px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/1200px-Caduceus.svg.png" alt="">
+    <h6 style="display:inline">TeleHealth Care+</h6>
+    <br><br>
+    <a href="consultation.html">Consult a Doctor</a>
+    <a href="appointment.html">Book an Appointment</a>
+    <a href="reports.html">View Reports</a>
+    <a href="hospital.html">Hospitals Near Me</a>
+    <a href="bills.html">Pay Bills Online</a>
+    <a href="index.html#hospital">Add a Hospital</a>
+  </footer>
+
+
+  <!-- Bootstrap CDN -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- Javascript & Jquery -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="appointment.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+footer {
+  padding: 3% 10%;
+  background-color: lavender;
+  text-align: center;
+}
+
+footer a {
+  padding-left: 30px;
+}
+
+.nav {
+  padding: 1% 2%;
+  background-color: antiquewhite;
+}
+
+.navlink {
+  margin-left: auto; 
+}
+
+.main {
+  padding: 5% 10%;
+  background-color: antiquewhite;
+}
+
+.form-control {
+  width: 20%;
+}
+
+.next {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: none;
+}

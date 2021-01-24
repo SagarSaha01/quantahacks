@@ -1,0 +1,27 @@
+footer {
+  padding: 3% 10%;
+  background-color: lavender;
+  text-align: center;
+}
+
+footer a {
+  padding-left: 30px;
+}
+
+.nav {
+  background-color:blanchedalmond;
+  padding: 1% 2%;
+}
+
+.navlink {
+  margin-left: auto; 
+}
+
+.main {
+  padding: 7% 15% 3%;
+  background-color: blanchedalmond;
+}
+
+#order {
+  padding: 3% 15% 7%;
+}

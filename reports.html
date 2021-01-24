@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Reports</title>
+  <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/1200px-Caduceus.svg.png">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="reports.css">
+</head>
+<body>
+ 
+  <!-- NavBar -->
+
+  <div class="nav">
+    <h4>TeleHealth Care+</h4>
+    <div class="navlink">
+      <a class="btn btn-primary" href="index.html">Home</a>
+      <a class="btn btn-primary" href="index.html#patient">For Patients</a>
+      <a class="btn btn-primary" href="index.html#hospital">For Hospitals</a> 
+    </div>
+  </div>
+
+  <!-- Body -->
+
+  <div class="main">
+    <img width="20%" src="https://previews.123rf.com/images/bsd555/bsd5551806/bsd555180600522/102739759-medical-report-linear-icon-thin-line-illustration-doctor-advice-contour-symbol-vector-isolated-outli.jpg" alt="">
+    <h1>View Reports</h1>
+    <h5>You can now view your reports online. Just enter your patient id.</h5>
+    <p>You can enter '000' for patient id for a demo account.</p>
+    <label>Please Enter Your Patient ID</label>
+    <input style="width: 20%;" class="form-control" type="" placeholder=" # Enter Patient ID">
+    <br>
+    <button id="view" class="btn btn-outline-primary">View Report</button>
+  </div>
+
+  <div class="report">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Report</th>
+          <th scope="col">Date</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Blood Test</td>
+          <td>26th July, 2019</td>
+          <td> <a target="_blank" href="https://clf1.medpagetoday.com/assets/images/MM_figure1.jpg">View</a> </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Blood Test</td>
+          <td>31st December, 2020</td>
+          <td> <a target="_blank" href="https://clf1.medpagetoday.com/assets/images/MM_figure1.jpg">View</a> </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Blood Test</td>
+          <td>23rd January, 2021</td>
+          <td> <a target="_blank" href="https://clf1.medpagetoday.com/assets/images/MM_figure1.jpg">View</a> </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+   <!-- Footer -->
+
+  <footer>
+    <img style="width:35px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/1200px-Caduceus.svg.png" alt="">
+    <h6 style="display:inline">TeleHealth Care+</h6>
+    <br><br>
+    <a href="consultation.html">Consult a Doctor</a>
+    <a href="appointment.html">Book an Appointment</a>
+    <a href="reports.html">View Reports</a>
+    <a href="hospital.html">Hospitals Near Me</a>
+    <a href="bills.html">Pay Bills Online</a>
+    <a href="index.html#hospital">Add a Hospital</a>
+  </footer>
+
+  <!-- Bootstrap CDN -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- Javascript & Jquery -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="reports.js"></script>
+  
+</body>
+</html> 

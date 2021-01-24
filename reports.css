@@ -1,0 +1,32 @@
+.nav {
+  background-color:white;
+  padding: 1% 2%;
+}
+
+.navlink {
+  margin-left: auto; 
+}
+
+footer {
+  padding: 3% 10%;
+  background-color: lavender;
+  text-align: center;
+}
+
+footer a {
+  padding-left: 30px;
+}
+
+.main {
+  padding: 5% 10%;
+}
+
+.table {
+  width: 80%;
+  margin: auto;
+}
+
+.report {
+  padding-bottom: 5%;
+  display: none;
+}

@@ -1,0 +1,48 @@
+.appointment {
+  padding: 2% 10% 5%;
+}
+
+.nav {
+  padding: 1% 2%;
+}
+
+.navlink {
+  margin-left: auto; 
+}
+
+.css-fc {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.online {
+  padding: 0% 10% 5%;
+  display:none;  
+}
+
+.calender {
+  display: none;
+}
+
+.calender2 {
+  display: none;
+}
+
+.in-person {
+  padding: 0% 10% 5%;
+  display: none;
+}
+
+body {
+  background-color: white;
+}
+
+footer {
+  padding: 3% 10%;
+  background-color: lavender;
+  text-align: center;
+}
+
+footer a {
+  padding-left: 30px;
+}

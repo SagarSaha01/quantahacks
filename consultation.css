@@ -1,0 +1,38 @@
+.nav {
+  padding: 1% 2%;
+  background-color: beige;
+}
+
+.navlink {
+  margin-left: auto; 
+}
+
+.main {
+  padding: 5% 10%;
+  background-color: beige;
+}
+
+footer {
+  padding: 3% 10%;
+  background-color: lavender;
+  text-align: center;
+}
+
+footer a {
+  padding-left: 30px;
+}
+
+.online {
+  padding: 5% 10%;
+  display: none;
+}
+
+.in-person {
+  padding: 5% 10%;
+  display: none;
+}
+
+.form-control {
+  display: inline;
+  width: 20%;
+}

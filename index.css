@@ -1,0 +1,71 @@
+.header {
+  text-align: center;
+  padding: 5% 10%;
+  background-color: aqua;
+
+}
+
+.nav {
+  background-color:aqua;
+  padding: 1% 2%;
+}
+
+.navlink {
+  margin-left: auto; 
+}
+
+.row {
+  margin: 0;
+  padding: 7% 10%;
+}
+
+.column1 {
+  width:40%;
+  grid-column-gap: 20px;
+}
+
+.column2 {
+  width:60%;
+  padding-left: 30px;
+}
+
+.column3 {
+  width:60%;
+  padding-right: 30px;
+}
+
+.column4 {
+  width:40%;
+}
+
+hr {
+  width: 80%;
+  border-width: 2px;
+  border-color: black;
+}
+
+.hospital {
+  padding: 5% 10%;
+  background-color: bisque;
+  text-align: center;
+}
+
+.covid {
+  padding: 7% 10%;
+  text-align: center;
+}
+
+footer {
+  padding: 3% 10%;
+  background-color: lavender;
+  text-align: center;
+}
+
+footer a {
+  padding-left: 30px;
+}
+
+.form-control {
+  width: 30%;
+  margin: auto;
+}
